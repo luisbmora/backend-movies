@@ -1,0 +1,32 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar archivos de entorno (como .env)
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de configuración local
+*.local
+
+# Ignorar logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignorar archivos de compilación de TypeScript
+dist/
+build/
+
+# Ignorar archivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignorar archivos de dependencias
+package-lock.json
+yarn.lock
+
+# Ignorar archivos de cobertura de pruebas
+coverage/
